@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+}
+.dvd-logo{
+    position: absolute;
+    background-color: #fff;
+    background-image: url('https://images.vexels.com/media/users/3/143390/isolated/lists/6e77e1e50898b0f14d32e17646332a01-logotipo-do-dvd-azul.png');
+    background-position: center;
+    background-size: 7rem;
+    width: 7rem;
+    height: 5rem;
+    animation-name: animation;
+    animation-duration: 40s;
+}
+@keyframes animation{
+0%{
+    top:0;
+    left: 0;    
+}
+10%{
+    top: calc(100vh - 5rem);
+    left: calc(50vw -7rem);
+    
+}
+30%{
+    top: calc(50vh - 5rem);
+    left:calc(100vw - 7rem);
+}
+50%{
+    top: 0px;
+    left:calc(50vw - 7rem);
+}
+70%{
+    top: calc(50vh - 5rem);
+    left:0px;
+    
+}
+100%{
+    top: calc(100vh - 5rem);
+    left: calc(100vw - 7rem)
+}
+    
+}
