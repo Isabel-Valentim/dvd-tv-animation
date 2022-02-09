@@ -18,6 +18,7 @@ body{
     height: 5rem;
     animation-name: animation;
     animation-duration: 40s;
+    animation-iteration-count: infinite;
 }
 @keyframes animation{
 0%{
